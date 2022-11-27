@@ -31,6 +31,9 @@ export function Footer({ app }: { app: AppMeta }) {
           </a>
         </div>
       </div>
+      <div className={styles.Footer_Copyright}>
+        Copyright (c) 2022 Rei Ishikawa.
+      </div>
     </footer>
   );
 }
